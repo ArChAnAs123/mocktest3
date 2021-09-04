@@ -1,0 +1,24 @@
+<p><u><h1>USERS</h1></u></p>
+
+
+
+<mat-card class="card" *ngFor="let mynote of notes ">
+    
+    <mat-card-title  class="title">User {{mynote.id}}</mat-card-title>
+   
+    <div layout-fill layout="column" layout-align="center none" layout="row" layout-align="center none">
+  
+  <mat-card-content>
+  {{mynote.first_name}}<br>
+  {{mynote.last_name}}<br>
+  {{mynote.email}}<br>
+  {{mynote.gender}}<br>
+  {{mynote.ip_address}}
+  </mat-card-content>
+</div>
+    
+  <mat-card-actions>
+   
+    
+  </mat-card-actions>
+  </mat-card> 

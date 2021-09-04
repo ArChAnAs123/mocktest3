@@ -1,0 +1,18 @@
+.card{
+    width: 250px;
+    margin:10px;
+    border: solid ;
+    align-self: auto;
+    align-content: space-around;
+    display: inline-block;
+    margin-left: 50px;
+   
+
+}
+
+p{
+    margin-top: 40px;
+    margin-left: 20px;
+    
+    text-align: center;
+}
